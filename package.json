@@ -1,9 +1,11 @@
 {
   "name": "create-https-serve-static",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "create simple https serve to preview local static",
   "main": "index.js",
-  "bin": "create-https-serve-static",
+  "bin": {
+    "create-https-serve-static": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
