@@ -1,0 +1,24 @@
+{
+  "name": "create-https-serve-static",
+  "version": "0.0.1",
+  "description": "create simple https serve to preview local static",
+  "main": "index.js",
+  "bin": "create-https-serve-static",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flypie2/create-https-serve-static.git"
+  },
+  "author": "flypie2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flypie2/create-https-serve-static/issues"
+  },
+  "homepage": "https://github.com/flypie2/create-https-serve-static#readme",
+  "dependencies": {
+    "finalhandler": "^1.1.0",
+    "serve-static": "^1.13.1"
+  }
+}
